@@ -91,7 +91,7 @@ class DiGraph():
     for i in range(36):
         print("%d: %.5f" %(i+1, w[i]*100))
     
-    
+    #ordenação da distribuição estacionária
     wo = list(w)
     wo.sort()
     wo.reverse()
@@ -99,10 +99,26 @@ class DiGraph():
     print ("w ordenado: ")
     print (wo)
     print(" ")
-    print("TOP")
+    print("Estados mais prováveis de serem acessados")
     for woi in wo[:5]:
         print("%d: %.5f" %(w.index(woi), woi*100))
-        
+    
+    #Pagerank
+    pr = nx.pagerank(G, alpha=0.1, personalization=None, weight='weight', dangling=None)
+    print("\nPagerank:")
+    for i in range(1,36):
+        print("%d: %.5f" %(i+1, pr[i]*100))
+    po = list(pr.values())
+    po.sort()
+    print("\nDistribuição estacionária ordenada obtida por Pagerank ordenado:")
+    print (po)
+    
+    #Comparando PageRank com Power Method
+    wo1 =list(w)
+    wo1.sort()
+    print("\nDistribuição estacionária gerada pelo Pagerank e Power Method são ",end="")
+    print(wo1==po and "iguais" or "diferentes")
+    
     
         
 
