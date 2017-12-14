@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Nov 30 10:08:33 2017
-
-@author: Bianca Garcia
-"""
-
 import networkx as nx
 import numpy as np
 import matplotlib.pyplot as plt
@@ -57,21 +50,27 @@ class DiGraph():
             P[n][n+1] = 0.5
             G.add_edge(n,n+2, weight = 0.5)
             P[n][n+2] = 0.5
-            
-    pos = nx.shell_layout(G)
+    print("\nVerifique a lista de arestas com seus respectivos pesos no arquivo vertices_arestas.txt")
+    wtxt= open("vertices_arestas.txt",'w')
+    for e in G.edges(data=True):
+        wtxt.write("Aresta {}x{} com peso {}\n".format(e[0],e[1],e[2]['weight']))
+    wtxt.close()
+       
+    pos = nx.random_layout(G)
     name = { v: (v) for v, data in G.nodes(data=True) }
     dist = dict([((u,v,),data['weight']) for u,v,data in G.edges(data=True)]) 
     nx.draw_networkx_edge_labels(G, pos, edge_labels=dist)
     nx.draw_networkx_labels(G,pos,labels=name)
     nx.draw_networkx_edges(G,pos)
     nx.draw(G,pos) 
-    plt.savefig("graph.png", dpi=96, facecolor='w', edgecolor='w',orientation='portrait', papertype=None, format=None,transparent=False, bbox_inches=None, pad_inches=0.1)
+    plt.savefig("Markov.png", dpi=96, facecolor='w', edgecolor='w',orientation='portrait', papertype=None, format=None,transparent=False, bbox_inches=None, pad_inches=0.1)
     with open('matrix.txt','wb') as f:
         np.savetxt(f, P, fmt='%.1f')
+    
      
             
     plt.show();
-    print (P)
+    print ("Matriz de probabilidades \n{}".format(P))
     plt.close();
  
     #distribuição estacionária
@@ -86,20 +85,20 @@ class DiGraph():
                 ai += w[col]*P[ln][col]
             aux.append(ai)
         w = aux
-    max=0
+    
     # imprime a distribuição de probabilidades em %
+    print("\nDistribuição estacionária")
     for i in range(36):
         print("%d: %.5f" %(i+1, w[i]*100))
     
     #ordenação da distribuição estacionária
+   
     wo = list(w)
     wo.sort()
     wo.reverse()
-    print(" ")
-    print ("w ordenado: ")
+    print ("\nw ordenado: ")
     print (wo)
-    print(" ")
-    print("Estados mais prováveis de serem acessados")
+    print("\nEstados mais prováveis de serem acessados")
     for woi in wo[:5]:
         print("%d: %.5f" %(w.index(woi), woi*100))
     
