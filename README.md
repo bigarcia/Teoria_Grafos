@@ -53,10 +53,7 @@ b)
 
 Resolução:
 A imagem que representa a cadeia de Markov é gerada na pasta do projeto com o nome Markov.pgn, como pode ser observado abaixo
-![Imagens](LINK)
-
-
-
+![Imagens](Markov)
 
 
 PROJETO 3: BUSCA EM LARGURA E PROFUNDIDADE
@@ -104,3 +101,9 @@ QUESTIONAMENTOS
 
 Liste as 3 melhores soluções e as 3 piores obtidas. Qual a diferença de custo entre a melhor e a pior? Discuta como a diferença pode ser significativa.
 
+Introdução:
+
+
+Solução:
+
+Escolheu- se o algoritmo de Prim para se obter a MST e Twice-Around como algoritmo para a resolução do caixeiro viajante.
