@@ -107,7 +107,7 @@ print("Para visualizar a imagem de forma ampliada, abra BFS_Karate_Before.png na
 nx.draw_networkx_labels(G,pos,labels=name)
 nx.draw_networkx_edges(G,pos)
 nx.draw(G,pos) 
-plt.savefig("BFS_Karate_Before.png", dpi=96, facecolor='w', edgecolor='w',orientation='portrait', papertype=None, format=None,transparent=False, bbox_inches=None, pad_inches=0.1)
+plt.savefig("Karate_Before.png", dpi=96, facecolor='w', edgecolor='w',orientation='portrait', papertype=None, format=None,transparent=False, bbox_inches=None, pad_inches=0.1)
 plt.show()
 plt.close()
 
