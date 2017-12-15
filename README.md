@@ -73,14 +73,14 @@ No DFS  a cada vértice descoberto, explora - se um de seus vizinhos não visita
 Solução:
 
 O primeiro grafo, nomeado de Karate (como mostrado abaixo), é encontrado na pasta do projeto com o nome Karate_Before.pgn e foi construído importando o documento karate.paj, que contém todos os vértices e arestas do grafo.
-![Imagens](Karate_Before.png)
+![Imagens](Karate_Before)
 
 Após a implementação do BFS no grafo original, a seguinte imagem do grafo é gerado na pasta do projeto, com nome BFS_Karate_After.png.
-![Imagens](Karate_After.png)
+![Imagens](Karate_After)
 Todos os passos de execução do BFS são apresentado no BFS_Karate.txt, que se encontra na página do projeto
 
 Após a implementação do DFS no grafo original, a seguinte imagem do grafo é gerado na pasta do projeto, com nome DFS_Karate_After.png
-![Imagens](DFS_Karate_After.pgn)
+![Imagens](DFS_Karate_After)
 
 O primeiro grafo, nomeado de Dolphins (como mostrado abaixo), é encontrado na pasta do projeto com o nome Dolphins_Before.pgn e foi construído importando o documento karate.paj, que contém todos os vértices e arestas do grafo.
 ![Imagens](Dolphins_Before)
