@@ -1,0 +1,816 @@
+Considere que lambda é a menor custo até o momento para o caminho entre a raíz e o vértice analisado
+O vértice 0 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 1 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 2 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 3 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 4 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 5 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 6 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 7 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 8 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 9 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 10 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 11 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 12 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 13 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 14 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 15 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 16 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 17 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 18 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 19 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 20 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 21 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 22 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 23 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 24 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 25 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 26 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 27 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 28 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 29 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 30 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 31 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 32 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 33 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 34 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 35 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 36 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 37 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 38 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 39 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 40 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 41 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 42 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 43 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 44 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 45 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 46 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 47 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 48 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 49 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 50 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 51 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 52 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 53 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 54 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 55 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 56 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 57 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 58 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 59 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 60 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 61 possui lambda igual a inf e ainda não foi descoberto.
+O vértice 1 foi descoberto.
+O vértice 1 possui lambda igual a 0.
+A fila de prioridade Q é: deque(['1']).
+
+A fila de prioridade Q é: deque([]).
+
+Para vértice 1 existe o vizinho 17.
+Lambda atual do vértice 17: 1
+Vértice 17 foi descoberto.A fila de prioridade Q é: deque(['17']).
+
+Para vértice 1 existe o vizinho 19.
+Lambda atual do vértice 19: 1
+Vértice 19 foi descoberto.A fila de prioridade Q é: deque(['17', '19']).
+
+Para vértice 1 existe o vizinho 26.
+Lambda atual do vértice 26: 1
+Vértice 26 foi descoberto.A fila de prioridade Q é: deque(['17', '19', '26']).
+
+Para vértice 1 existe o vizinho 27.
+Lambda atual do vértice 27: 1
+Vértice 27 foi descoberto.A fila de prioridade Q é: deque(['17', '19', '26', '27']).
+
+Para vértice 1 existe o vizinho 28.
+Lambda atual do vértice 28: 1
+Vértice 28 foi descoberto.A fila de prioridade Q é: deque(['17', '19', '26', '27', '28']).
+
+Para vértice 1 existe o vizinho 36.
+Lambda atual do vértice 36: 1
+Vértice 36 foi descoberto.A fila de prioridade Q é: deque(['17', '19', '26', '27', '28', '36']).
+
+Para vértice 1 existe o vizinho 41.
+Lambda atual do vértice 41: 1
+Vértice 41 foi descoberto.A fila de prioridade Q é: deque(['17', '19', '26', '27', '28', '36', '41']).
+
+Para vértice 1 existe o vizinho 54.
+Lambda atual do vértice 54: 1
+Vértice 54 foi descoberto.A fila de prioridade Q é: deque(['17', '19', '26', '27', '28', '36', '41', '54']).
+
+Vértice 1 foi analisado.
+A fila de prioridade Q é: deque(['19', '26', '27', '28', '36', '41', '54']).
+
+Para vértice 17 existe o vizinho 1.
+Para vértice 17 existe o vizinho 6.
+Lambda atual do vértice 6: 2
+Vértice 6 foi descoberto.A fila de prioridade Q é: deque(['19', '26', '27', '28', '36', '41', '54', '6']).
+
+Para vértice 17 existe o vizinho 9.
+Lambda atual do vértice 9: 2
+Vértice 9 foi descoberto.A fila de prioridade Q é: deque(['19', '26', '27', '28', '36', '41', '54', '6', '9']).
+
+Para vértice 17 existe o vizinho 13.
+Lambda atual do vértice 13: 2
+Vértice 13 foi descoberto.A fila de prioridade Q é: deque(['19', '26', '27', '28', '36', '41', '54', '6', '9', '13']).
+
+Para vértice 17 existe o vizinho 22.
+Lambda atual do vértice 22: 2
+Vértice 22 foi descoberto.A fila de prioridade Q é: deque(['19', '26', '27', '28', '36', '41', '54', '6', '9', '13', '22']).
+
+Para vértice 17 existe o vizinho 25.
+Lambda atual do vértice 25: 2
+Vértice 25 foi descoberto.A fila de prioridade Q é: deque(['19', '26', '27', '28', '36', '41', '54', '6', '9', '13', '22', '25']).
+
+Para vértice 17 existe o vizinho 27.
+Para vértice 17 existe o vizinho 31.
+Lambda atual do vértice 31: 2
+Vértice 31 foi descoberto.A fila de prioridade Q é: deque(['19', '26', '27', '28', '36', '41', '54', '6', '9', '13', '22', '25', '31']).
+
+Para vértice 17 existe o vizinho 57.
+Lambda atual do vértice 57: 2
+Vértice 57 foi descoberto.A fila de prioridade Q é: deque(['19', '26', '27', '28', '36', '41', '54', '6', '9', '13', '22', '25', '31', '57']).
+
+Vértice 17 foi analisado.
+A fila de prioridade Q é: deque(['26', '27', '28', '36', '41', '54', '6', '9', '13', '22', '25', '31', '57']).
+
+Para vértice 19 existe o vizinho 1.
+Para vértice 19 existe o vizinho 7.
+Lambda atual do vértice 7: 2
+Vértice 7 foi descoberto.A fila de prioridade Q é: deque(['26', '27', '28', '36', '41', '54', '6', '9', '13', '22', '25', '31', '57', '7']).
+
+Para vértice 19 existe o vizinho 30.
+Lambda atual do vértice 30: 2
+Vértice 30 foi descoberto.A fila de prioridade Q é: deque(['26', '27', '28', '36', '41', '54', '6', '9', '13', '22', '25', '31', '57', '7', '30']).
+
+Para vértice 19 existe o vizinho 54.
+Vértice 19 foi analisado.
+A fila de prioridade Q é: deque(['27', '28', '36', '41', '54', '6', '9', '13', '22', '25', '31', '57', '7', '30']).
+
+Para vértice 26 existe o vizinho 1.
+Para vértice 26 existe o vizinho 25.
+Para vértice 26 existe o vizinho 27.
+Vértice 26 foi analisado.
+A fila de prioridade Q é: deque(['28', '36', '41', '54', '6', '9', '13', '22', '25', '31', '57', '7', '30']).
+
+Para vértice 27 existe o vizinho 1.
+Para vértice 27 existe o vizinho 7.
+Para vértice 27 existe o vizinho 17.
+Para vértice 27 existe o vizinho 25.
+Para vértice 27 existe o vizinho 26.
+Vértice 27 foi analisado.
+A fila de prioridade Q é: deque(['36', '41', '54', '6', '9', '13', '22', '25', '31', '57', '7', '30']).
+
+Para vértice 28 existe o vizinho 1.
+Para vértice 28 existe o vizinho 8.
+Lambda atual do vértice 8: 2
+Vértice 8 foi descoberto.A fila de prioridade Q é: deque(['36', '41', '54', '6', '9', '13', '22', '25', '31', '57', '7', '30', '8']).
+
+Para vértice 28 existe o vizinho 20.
+Lambda atual do vértice 20: 2
+Vértice 20 foi descoberto.A fila de prioridade Q é: deque(['36', '41', '54', '6', '9', '13', '22', '25', '31', '57', '7', '30', '8', '20']).
+
+Para vértice 28 existe o vizinho 30.
+Para vértice 28 existe o vizinho 47.
+Lambda atual do vértice 47: 2
+Vértice 47 foi descoberto.A fila de prioridade Q é: deque(['36', '41', '54', '6', '9', '13', '22', '25', '31', '57', '7', '30', '8', '20', '47']).
+
+Vértice 28 foi analisado.
+A fila de prioridade Q é: deque(['41', '54', '6', '9', '13', '22', '25', '31', '57', '7', '30', '8', '20', '47']).
+
+Para vértice 36 existe o vizinho 1.
+Para vértice 36 existe o vizinho 20.
+Para vértice 36 existe o vizinho 23.
+Lambda atual do vértice 23: 2
+Vértice 23 foi descoberto.A fila de prioridade Q é: deque(['41', '54', '6', '9', '13', '22', '25', '31', '57', '7', '30', '8', '20', '47', '23']).
+
+Para vértice 36 existe o vizinho 37.
+Lambda atual do vértice 37: 2
+Vértice 37 foi descoberto.A fila de prioridade Q é: deque(['41', '54', '6', '9', '13', '22', '25', '31', '57', '7', '30', '8', '20', '47', '23', '37']).
+
+Para vértice 36 existe o vizinho 39.
+Lambda atual do vértice 39: 2
+Vértice 39 foi descoberto.A fila de prioridade Q é: deque(['41', '54', '6', '9', '13', '22', '25', '31', '57', '7', '30', '8', '20', '47', '23', '37', '39']).
+
+Para vértice 36 existe o vizinho 40.
+Lambda atual do vértice 40: 2
+Vértice 40 foi descoberto.A fila de prioridade Q é: deque(['41', '54', '6', '9', '13', '22', '25', '31', '57', '7', '30', '8', '20', '47', '23', '37', '39', '40']).
+
+Para vértice 36 existe o vizinho 59.
+Lambda atual do vértice 59: 2
+Vértice 59 foi descoberto.A fila de prioridade Q é: deque(['41', '54', '6', '9', '13', '22', '25', '31', '57', '7', '30', '8', '20', '47', '23', '37', '39', '40', '59']).
+
+Vértice 36 foi analisado.
+A fila de prioridade Q é: deque(['54', '6', '9', '13', '22', '25', '31', '57', '7', '30', '8', '20', '47', '23', '37', '39', '40', '59']).
+
+Para vértice 41 existe o vizinho 1.
+Para vértice 41 existe o vizinho 9.
+Para vértice 41 existe o vizinho 13.
+Para vértice 41 existe o vizinho 54.
+Para vértice 41 existe o vizinho 57.
+Vértice 41 foi analisado.
+A fila de prioridade Q é: deque(['6', '9', '13', '22', '25', '31', '57', '7', '30', '8', '20', '47', '23', '37', '39', '40', '59']).
+
+Para vértice 54 existe o vizinho 1.
+Para vértice 54 existe o vizinho 6.
+Para vértice 54 existe o vizinho 7.
+Para vértice 54 existe o vizinho 13.
+Para vértice 54 existe o vizinho 19.
+Para vértice 54 existe o vizinho 41.
+Para vértice 54 existe o vizinho 57.
+Vértice 54 foi analisado.
+A fila de prioridade Q é: deque(['9', '13', '22', '25', '31', '57', '7', '30', '8', '20', '47', '23', '37', '39', '40', '59']).
+
+Para vértice 6 existe o vizinho 9.
+Para vértice 6 existe o vizinho 13.
+Para vértice 6 existe o vizinho 17.
+Para vértice 6 existe o vizinho 54.
+Para vértice 6 existe o vizinho 56.
+Lambda atual do vértice 56: 3
+Vértice 56 foi descoberto.A fila de prioridade Q é: deque(['9', '13', '22', '25', '31', '57', '7', '30', '8', '20', '47', '23', '37', '39', '40', '59', '56']).
+
+Para vértice 6 existe o vizinho 57.
+Vértice 6 foi analisado.
+A fila de prioridade Q é: deque(['13', '22', '25', '31', '57', '7', '30', '8', '20', '47', '23', '37', '39', '40', '59', '56']).
+
+Para vértice 9 existe o vizinho 5.
+Lambda atual do vértice 5: 3
+Vértice 5 foi descoberto.A fila de prioridade Q é: deque(['13', '22', '25', '31', '57', '7', '30', '8', '20', '47', '23', '37', '39', '40', '59', '56', '5']).
+
+Para vértice 9 existe o vizinho 6.
+Para vértice 9 existe o vizinho 13.
+Para vértice 9 existe o vizinho 17.
+Para vértice 9 existe o vizinho 32.
+Lambda atual do vértice 32: 3
+Vértice 32 foi descoberto.A fila de prioridade Q é: deque(['13', '22', '25', '31', '57', '7', '30', '8', '20', '47', '23', '37', '39', '40', '59', '56', '5', '32']).
+
+Para vértice 9 existe o vizinho 41.
+Para vértice 9 existe o vizinho 57.
+Vértice 9 foi analisado.
+A fila de prioridade Q é: deque(['22', '25', '31', '57', '7', '30', '8', '20', '47', '23', '37', '39', '40', '59', '56', '5', '32']).
+
+Para vértice 13 existe o vizinho 5.
+Para vértice 13 existe o vizinho 6.
+Para vértice 13 existe o vizinho 9.
+Para vértice 13 existe o vizinho 17.
+Para vértice 13 existe o vizinho 32.
+Para vértice 13 existe o vizinho 41.
+Para vértice 13 existe o vizinho 54.
+Para vértice 13 existe o vizinho 57.
+Vértice 13 foi analisado.
+A fila de prioridade Q é: deque(['25', '31', '57', '7', '30', '8', '20', '47', '23', '37', '39', '40', '59', '56', '5', '32']).
+
+Para vértice 22 existe o vizinho 17.
+Vértice 22 foi analisado.
+A fila de prioridade Q é: deque(['31', '57', '7', '30', '8', '20', '47', '23', '37', '39', '40', '59', '56', '5', '32']).
+
+Para vértice 25 existe o vizinho 17.
+Para vértice 25 existe o vizinho 26.
+Para vértice 25 existe o vizinho 27.
+Vértice 25 foi analisado.
+A fila de prioridade Q é: deque(['57', '7', '30', '8', '20', '47', '23', '37', '39', '40', '59', '56', '5', '32']).
+
+Para vértice 31 existe o vizinho 17.
+Vértice 31 foi analisado.
+A fila de prioridade Q é: deque(['7', '30', '8', '20', '47', '23', '37', '39', '40', '59', '56', '5', '32']).
+
+Para vértice 57 existe o vizinho 5.
+Para vértice 57 existe o vizinho 6.
+Para vértice 57 existe o vizinho 9.
+Para vértice 57 existe o vizinho 13.
+Para vértice 57 existe o vizinho 17.
+Para vértice 57 existe o vizinho 39.
+Para vértice 57 existe o vizinho 41.
+Para vértice 57 existe o vizinho 48.
+Lambda atual do vértice 48: 3
+Vértice 48 foi descoberto.A fila de prioridade Q é: deque(['7', '30', '8', '20', '47', '23', '37', '39', '40', '59', '56', '5', '32', '48']).
+
+Para vértice 57 existe o vizinho 54.
+Vértice 57 foi analisado.
+A fila de prioridade Q é: deque(['30', '8', '20', '47', '23', '37', '39', '40', '59', '56', '5', '32', '48']).
+
+Para vértice 7 existe o vizinho 19.
+Para vértice 7 existe o vizinho 27.
+Para vértice 7 existe o vizinho 30.
+Para vértice 7 existe o vizinho 40.
+Para vértice 7 existe o vizinho 54.
+Vértice 7 foi analisado.
+A fila de prioridade Q é: deque(['8', '20', '47', '23', '37', '39', '40', '59', '56', '5', '32', '48']).
+
+Para vértice 30 existe o vizinho 7.
+Para vértice 30 existe o vizinho 19.
+Para vértice 30 existe o vizinho 28.
+Para vértice 30 existe o vizinho 42.
+Lambda atual do vértice 42: 3
+Vértice 42 foi descoberto.A fila de prioridade Q é: deque(['8', '20', '47', '23', '37', '39', '40', '59', '56', '5', '32', '48', '42']).
+
+Para vértice 30 existe o vizinho 47.
+Vértice 30 foi analisado.
+A fila de prioridade Q é: deque(['20', '47', '23', '37', '39', '40', '59', '56', '5', '32', '48', '42']).
+
+Para vértice 8 existe o vizinho 3.
+Lambda atual do vértice 3: 3
+Vértice 3 foi descoberto.A fila de prioridade Q é: deque(['20', '47', '23', '37', '39', '40', '59', '56', '5', '32', '48', '42', '3']).
+
+Para vértice 8 existe o vizinho 20.
+Para vértice 8 existe o vizinho 28.
+Para vértice 8 existe o vizinho 37.
+Para vértice 8 existe o vizinho 45.
+Lambda atual do vértice 45: 3
+Vértice 45 foi descoberto.A fila de prioridade Q é: deque(['20', '47', '23', '37', '39', '40', '59', '56', '5', '32', '48', '42', '3', '45']).
+
+Para vértice 8 existe o vizinho 59.
+Vértice 8 foi analisado.
+A fila de prioridade Q é: deque(['47', '23', '37', '39', '40', '59', '56', '5', '32', '48', '42', '3', '45']).
+
+Para vértice 20 existe o vizinho 8.
+Para vértice 20 existe o vizinho 16.
+Lambda atual do vértice 16: 3
+Vértice 16 foi descoberto.A fila de prioridade Q é: deque(['47', '23', '37', '39', '40', '59', '56', '5', '32', '48', '42', '3', '45', '16']).
+
+Para vértice 20 existe o vizinho 18.
+Lambda atual do vértice 18: 3
+Vértice 18 foi descoberto.A fila de prioridade Q é: deque(['47', '23', '37', '39', '40', '59', '56', '5', '32', '48', '42', '3', '45', '16', '18']).
+
+Para vértice 20 existe o vizinho 28.
+Para vértice 20 existe o vizinho 36.
+Para vértice 20 existe o vizinho 38.
+Lambda atual do vértice 38: 3
+Vértice 38 foi descoberto.A fila de prioridade Q é: deque(['47', '23', '37', '39', '40', '59', '56', '5', '32', '48', '42', '3', '45', '16', '18', '38']).
+
+Para vértice 20 existe o vizinho 44.
+Lambda atual do vértice 44: 3
+Vértice 44 foi descoberto.A fila de prioridade Q é: deque(['47', '23', '37', '39', '40', '59', '56', '5', '32', '48', '42', '3', '45', '16', '18', '38', '44']).
+
+Para vértice 20 existe o vizinho 47.
+Para vértice 20 existe o vizinho 50.
+Lambda atual do vértice 50: 3
+Vértice 50 foi descoberto.A fila de prioridade Q é: deque(['47', '23', '37', '39', '40', '59', '56', '5', '32', '48', '42', '3', '45', '16', '18', '38', '44', '50']).
+
+Vértice 20 foi analisado.
+A fila de prioridade Q é: deque(['23', '37', '39', '40', '59', '56', '5', '32', '48', '42', '3', '45', '16', '18', '38', '44', '50']).
+
+Para vértice 47 existe o vizinho 0.
+Lambda atual do vértice 0: 3
+Vértice 0 foi descoberto.A fila de prioridade Q é: deque(['23', '37', '39', '40', '59', '56', '5', '32', '48', '42', '3', '45', '16', '18', '38', '44', '50', '0']).
+
+Para vértice 47 existe o vizinho 10.
+Lambda atual do vértice 10: 3
+Vértice 10 foi descoberto.A fila de prioridade Q é: deque(['23', '37', '39', '40', '59', '56', '5', '32', '48', '42', '3', '45', '16', '18', '38', '44', '50', '0', '10']).
+
+Para vértice 47 existe o vizinho 20.
+Para vértice 47 existe o vizinho 28.
+Para vértice 47 existe o vizinho 30.
+Para vértice 47 existe o vizinho 42.
+Vértice 47 foi analisado.
+A fila de prioridade Q é: deque(['37', '39', '40', '59', '56', '5', '32', '48', '42', '3', '45', '16', '18', '38', '44', '50', '0', '10']).
+
+Para vértice 23 existe o vizinho 36.
+Para vértice 23 existe o vizinho 45.
+Para vértice 23 existe o vizinho 51.
+Lambda atual do vértice 51: 3
+Vértice 51 foi descoberto.A fila de prioridade Q é: deque(['37', '39', '40', '59', '56', '5', '32', '48', '42', '3', '45', '16', '18', '38', '44', '50', '0', '10', '51']).
+
+Vértice 23 foi analisado.
+A fila de prioridade Q é: deque(['39', '40', '59', '56', '5', '32', '48', '42', '3', '45', '16', '18', '38', '44', '50', '0', '10', '51']).
+
+Para vértice 37 existe o vizinho 8.
+Para vértice 37 existe o vizinho 14.
+Lambda atual do vértice 14: 3
+Vértice 14 foi descoberto.A fila de prioridade Q é: deque(['39', '40', '59', '56', '5', '32', '48', '42', '3', '45', '16', '18', '38', '44', '50', '0', '10', '51', '14']).
+
+Para vértice 37 existe o vizinho 16.
+Para vértice 37 existe o vizinho 21.
+Lambda atual do vértice 21: 3
+Vértice 21 foi descoberto.A fila de prioridade Q é: deque(['39', '40', '59', '56', '5', '32', '48', '42', '3', '45', '16', '18', '38', '44', '50', '0', '10', '51', '14', '21']).
+
+Para vértice 37 existe o vizinho 33.
+Lambda atual do vértice 33: 3
+Vértice 33 foi descoberto.A fila de prioridade Q é: deque(['39', '40', '59', '56', '5', '32', '48', '42', '3', '45', '16', '18', '38', '44', '50', '0', '10', '51', '14', '21', '33']).
+
+Para vértice 37 existe o vizinho 34.
+Lambda atual do vértice 34: 3
+Vértice 34 foi descoberto.A fila de prioridade Q é: deque(['39', '40', '59', '56', '5', '32', '48', '42', '3', '45', '16', '18', '38', '44', '50', '0', '10', '51', '14', '21', '33', '34']).
+
+Para vértice 37 existe o vizinho 36.
+Para vértice 37 existe o vizinho 40.
+Para vértice 37 existe o vizinho 43.
+Lambda atual do vértice 43: 3
+Vértice 43 foi descoberto.A fila de prioridade Q é: deque(['39', '40', '59', '56', '5', '32', '48', '42', '3', '45', '16', '18', '38', '44', '50', '0', '10', '51', '14', '21', '33', '34', '43']).
+
+Para vértice 37 existe o vizinho 45.
+Para vértice 37 existe o vizinho 61.
+Lambda atual do vértice 61: 3
+Vértice 61 foi descoberto.A fila de prioridade Q é: deque(['39', '40', '59', '56', '5', '32', '48', '42', '3', '45', '16', '18', '38', '44', '50', '0', '10', '51', '14', '21', '33', '34', '43', '61']).
+
+Vértice 37 foi analisado.
+A fila de prioridade Q é: deque(['40', '59', '56', '5', '32', '48', '42', '3', '45', '16', '18', '38', '44', '50', '0', '10', '51', '14', '21', '33', '34', '43', '61']).
+
+Para vértice 39 existe o vizinho 36.
+Para vértice 39 existe o vizinho 57.
+Vértice 39 foi analisado.
+A fila de prioridade Q é: deque(['59', '56', '5', '32', '48', '42', '3', '45', '16', '18', '38', '44', '50', '0', '10', '51', '14', '21', '33', '34', '43', '61']).
+
+Para vértice 40 existe o vizinho 0.
+Para vértice 40 existe o vizinho 7.
+Para vértice 40 existe o vizinho 14.
+Para vértice 40 existe o vizinho 15.
+Lambda atual do vértice 15: 3
+Vértice 15 foi descoberto.A fila de prioridade Q é: deque(['59', '56', '5', '32', '48', '42', '3', '45', '16', '18', '38', '44', '50', '0', '10', '51', '14', '21', '33', '34', '43', '61', '15']).
+
+Para vértice 40 existe o vizinho 33.
+Para vértice 40 existe o vizinho 36.
+Para vértice 40 existe o vizinho 37.
+Para vértice 40 existe o vizinho 52.
+Lambda atual do vértice 52: 3
+Vértice 52 foi descoberto.A fila de prioridade Q é: deque(['59', '56', '5', '32', '48', '42', '3', '45', '16', '18', '38', '44', '50', '0', '10', '51', '14', '21', '33', '34', '43', '61', '15', '52']).
+
+Vértice 40 foi analisado.
+A fila de prioridade Q é: deque(['56', '5', '32', '48', '42', '3', '45', '16', '18', '38', '44', '50', '0', '10', '51', '14', '21', '33', '34', '43', '61', '15', '52']).
+
+Para vértice 59 existe o vizinho 3.
+Para vértice 59 existe o vizinho 8.
+Para vértice 59 existe o vizinho 15.
+Para vértice 59 existe o vizinho 36.
+Para vértice 59 existe o vizinho 45.
+Vértice 59 foi analisado.
+A fila de prioridade Q é: deque(['5', '32', '48', '42', '3', '45', '16', '18', '38', '44', '50', '0', '10', '51', '14', '21', '33', '34', '43', '61', '15', '52']).
+
+Para vértice 56 existe o vizinho 5.
+Para vértice 56 existe o vizinho 6.
+Vértice 56 foi analisado.
+A fila de prioridade Q é: deque(['32', '48', '42', '3', '45', '16', '18', '38', '44', '50', '0', '10', '51', '14', '21', '33', '34', '43', '61', '15', '52']).
+
+Para vértice 5 existe o vizinho 9.
+Para vértice 5 existe o vizinho 13.
+Para vértice 5 existe o vizinho 56.
+Para vértice 5 existe o vizinho 57.
+Vértice 5 foi analisado.
+A fila de prioridade Q é: deque(['48', '42', '3', '45', '16', '18', '38', '44', '50', '0', '10', '51', '14', '21', '33', '34', '43', '61', '15', '52']).
+
+Para vértice 32 existe o vizinho 9.
+Para vértice 32 existe o vizinho 13.
+Para vértice 32 existe o vizinho 60.
+Lambda atual do vértice 60: 4
+Vértice 60 foi descoberto.A fila de prioridade Q é: deque(['48', '42', '3', '45', '16', '18', '38', '44', '50', '0', '10', '51', '14', '21', '33', '34', '43', '61', '15', '52', '60']).
+
+Vértice 32 foi analisado.
+A fila de prioridade Q é: deque(['42', '3', '45', '16', '18', '38', '44', '50', '0', '10', '51', '14', '21', '33', '34', '43', '61', '15', '52', '60']).
+
+Para vértice 48 existe o vizinho 57.
+Vértice 48 foi analisado.
+A fila de prioridade Q é: deque(['3', '45', '16', '18', '38', '44', '50', '0', '10', '51', '14', '21', '33', '34', '43', '61', '15', '52', '60']).
+
+Para vértice 42 existe o vizinho 0.
+Para vértice 42 existe o vizinho 2.
+Lambda atual do vértice 2: 4
+Vértice 2 foi descoberto.A fila de prioridade Q é: deque(['3', '45', '16', '18', '38', '44', '50', '0', '10', '51', '14', '21', '33', '34', '43', '61', '15', '52', '60', '2']).
+
+Para vértice 42 existe o vizinho 10.
+Para vértice 42 existe o vizinho 30.
+Para vértice 42 existe o vizinho 47.
+Para vértice 42 existe o vizinho 50.
+Vértice 42 foi analisado.
+A fila de prioridade Q é: deque(['45', '16', '18', '38', '44', '50', '0', '10', '51', '14', '21', '33', '34', '43', '61', '15', '52', '60', '2']).
+
+Para vértice 3 existe o vizinho 8.
+Para vértice 3 existe o vizinho 14.
+Para vértice 3 existe o vizinho 59.
+Vértice 3 foi analisado.
+A fila de prioridade Q é: deque(['16', '18', '38', '44', '50', '0', '10', '51', '14', '21', '33', '34', '43', '61', '15', '52', '60', '2']).
+
+Para vértice 45 existe o vizinho 8.
+Para vértice 45 existe o vizinho 15.
+Para vértice 45 existe o vizinho 18.
+Para vértice 45 existe o vizinho 21.
+Para vértice 45 existe o vizinho 23.
+Para vértice 45 existe o vizinho 24.
+Lambda atual do vértice 24: 4
+Vértice 24 foi descoberto.A fila de prioridade Q é: deque(['16', '18', '38', '44', '50', '0', '10', '51', '14', '21', '33', '34', '43', '61', '15', '52', '60', '2', '24']).
+
+Para vértice 45 existe o vizinho 29.
+Lambda atual do vértice 29: 4
+Vértice 29 foi descoberto.A fila de prioridade Q é: deque(['16', '18', '38', '44', '50', '0', '10', '51', '14', '21', '33', '34', '43', '61', '15', '52', '60', '2', '24', '29']).
+
+Para vértice 45 existe o vizinho 37.
+Para vértice 45 existe o vizinho 50.
+Para vértice 45 existe o vizinho 51.
+Para vértice 45 existe o vizinho 59.
+Vértice 45 foi analisado.
+A fila de prioridade Q é: deque(['18', '38', '44', '50', '0', '10', '51', '14', '21', '33', '34', '43', '61', '15', '52', '60', '2', '24', '29']).
+
+Para vértice 16 existe o vizinho 14.
+Para vértice 16 existe o vizinho 20.
+Para vértice 16 existe o vizinho 33.
+Para vértice 16 existe o vizinho 37.
+Para vértice 16 existe o vizinho 38.
+Para vértice 16 existe o vizinho 50.
+Vértice 16 foi analisado.
+A fila de prioridade Q é: deque(['38', '44', '50', '0', '10', '51', '14', '21', '33', '34', '43', '61', '15', '52', '60', '2', '24', '29']).
+
+Para vértice 18 existe o vizinho 15.
+Para vértice 18 existe o vizinho 20.
+Para vértice 18 existe o vizinho 21.
+Para vértice 18 existe o vizinho 24.
+Para vértice 18 existe o vizinho 29.
+Para vértice 18 existe o vizinho 45.
+Para vértice 18 existe o vizinho 51.
+Vértice 18 foi analisado.
+A fila de prioridade Q é: deque(['44', '50', '0', '10', '51', '14', '21', '33', '34', '43', '61', '15', '52', '60', '2', '24', '29']).
+
+Para vértice 38 existe o vizinho 14.
+Para vértice 38 existe o vizinho 16.
+Para vértice 38 existe o vizinho 20.
+Para vértice 38 existe o vizinho 33.
+Para vértice 38 existe o vizinho 43.
+Para vértice 38 existe o vizinho 44.
+Para vértice 38 existe o vizinho 52.
+Para vértice 38 existe o vizinho 58.
+Lambda atual do vértice 58: 4
+Vértice 58 foi descoberto.A fila de prioridade Q é: deque(['44', '50', '0', '10', '51', '14', '21', '33', '34', '43', '61', '15', '52', '60', '2', '24', '29', '58']).
+
+Vértice 38 foi analisado.
+A fila de prioridade Q é: deque(['50', '0', '10', '51', '14', '21', '33', '34', '43', '61', '15', '52', '60', '2', '24', '29', '58']).
+
+Para vértice 44 existe o vizinho 2.
+Para vértice 44 existe o vizinho 20.
+Para vértice 44 existe o vizinho 34.
+Para vértice 44 existe o vizinho 38.
+Vértice 44 foi analisado.
+A fila de prioridade Q é: deque(['0', '10', '51', '14', '21', '33', '34', '43', '61', '15', '52', '60', '2', '24', '29', '58']).
+
+Para vértice 50 existe o vizinho 14.
+Para vértice 50 existe o vizinho 16.
+Para vértice 50 existe o vizinho 20.
+Para vértice 50 existe o vizinho 33.
+Para vértice 50 existe o vizinho 42.
+Para vértice 50 existe o vizinho 45.
+Para vértice 50 existe o vizinho 51.
+Vértice 50 foi analisado.
+A fila de prioridade Q é: deque(['10', '51', '14', '21', '33', '34', '43', '61', '15', '52', '60', '2', '24', '29', '58']).
+
+Para vértice 0 existe o vizinho 10.
+Para vértice 0 existe o vizinho 14.
+Para vértice 0 existe o vizinho 15.
+Para vértice 0 existe o vizinho 40.
+Para vértice 0 existe o vizinho 42.
+Para vértice 0 existe o vizinho 47.
+Vértice 0 foi analisado.
+A fila de prioridade Q é: deque(['51', '14', '21', '33', '34', '43', '61', '15', '52', '60', '2', '24', '29', '58']).
+
+Para vértice 10 existe o vizinho 0.
+Para vértice 10 existe o vizinho 2.
+Para vértice 10 existe o vizinho 29.
+Para vértice 10 existe o vizinho 42.
+Para vértice 10 existe o vizinho 47.
+Vértice 10 foi analisado.
+A fila de prioridade Q é: deque(['14', '21', '33', '34', '43', '61', '15', '52', '60', '2', '24', '29', '58']).
+
+Para vértice 51 existe o vizinho 4.
+Lambda atual do vértice 4: 4
+Vértice 4 foi descoberto.A fila de prioridade Q é: deque(['14', '21', '33', '34', '43', '61', '15', '52', '60', '2', '24', '29', '58', '4']).
+
+Para vértice 51 existe o vizinho 11.
+Lambda atual do vértice 11: 4
+Vértice 11 foi descoberto.A fila de prioridade Q é: deque(['14', '21', '33', '34', '43', '61', '15', '52', '60', '2', '24', '29', '58', '4', '11']).
+
+Para vértice 51 existe o vizinho 18.
+Para vértice 51 existe o vizinho 21.
+Para vértice 51 existe o vizinho 23.
+Para vértice 51 existe o vizinho 24.
+Para vértice 51 existe o vizinho 29.
+Para vértice 51 existe o vizinho 45.
+Para vértice 51 existe o vizinho 50.
+Para vértice 51 existe o vizinho 55.
+Lambda atual do vértice 55: 4
+Vértice 55 foi descoberto.A fila de prioridade Q é: deque(['14', '21', '33', '34', '43', '61', '15', '52', '60', '2', '24', '29', '58', '4', '11', '55']).
+
+Vértice 51 foi analisado.
+A fila de prioridade Q é: deque(['21', '33', '34', '43', '61', '15', '52', '60', '2', '24', '29', '58', '4', '11', '55']).
+
+Para vértice 14 existe o vizinho 0.
+Para vértice 14 existe o vizinho 3.
+Para vértice 14 existe o vizinho 16.
+Para vértice 14 existe o vizinho 24.
+Para vértice 14 existe o vizinho 33.
+Para vértice 14 existe o vizinho 34.
+Para vértice 14 existe o vizinho 37.
+Para vértice 14 existe o vizinho 38.
+Para vértice 14 existe o vizinho 40.
+Para vértice 14 existe o vizinho 43.
+Para vértice 14 existe o vizinho 50.
+Para vértice 14 existe o vizinho 52.
+Vértice 14 foi analisado.
+A fila de prioridade Q é: deque(['33', '34', '43', '61', '15', '52', '60', '2', '24', '29', '58', '4', '11', '55']).
+
+Para vértice 21 existe o vizinho 18.
+Para vértice 21 existe o vizinho 29.
+Para vértice 21 existe o vizinho 33.
+Para vértice 21 existe o vizinho 37.
+Para vértice 21 existe o vizinho 45.
+Para vértice 21 existe o vizinho 51.
+Vértice 21 foi analisado.
+A fila de prioridade Q é: deque(['34', '43', '61', '15', '52', '60', '2', '24', '29', '58', '4', '11', '55']).
+
+Para vértice 33 existe o vizinho 12.
+Lambda atual do vértice 12: 4
+Vértice 12 foi descoberto.A fila de prioridade Q é: deque(['34', '43', '61', '15', '52', '60', '2', '24', '29', '58', '4', '11', '55', '12']).
+
+Para vértice 33 existe o vizinho 14.
+Para vértice 33 existe o vizinho 16.
+Para vértice 33 existe o vizinho 21.
+Para vértice 33 existe o vizinho 34.
+Para vértice 33 existe o vizinho 37.
+Para vértice 33 existe o vizinho 38.
+Para vértice 33 existe o vizinho 40.
+Para vértice 33 existe o vizinho 43.
+Para vértice 33 existe o vizinho 50.
+Vértice 33 foi analisado.
+A fila de prioridade Q é: deque(['43', '61', '15', '52', '60', '2', '24', '29', '58', '4', '11', '55', '12']).
+
+Para vértice 34 existe o vizinho 14.
+Para vértice 34 existe o vizinho 33.
+Para vértice 34 existe o vizinho 37.
+Para vértice 34 existe o vizinho 44.
+Para vértice 34 existe o vizinho 49.
+Lambda atual do vértice 49: 4
+Vértice 49 foi descoberto.A fila de prioridade Q é: deque(['43', '61', '15', '52', '60', '2', '24', '29', '58', '4', '11', '55', '12', '49']).
+
+Vértice 34 foi analisado.
+A fila de prioridade Q é: deque(['61', '15', '52', '60', '2', '24', '29', '58', '4', '11', '55', '12', '49']).
+
+Para vértice 43 existe o vizinho 14.
+Para vértice 43 existe o vizinho 29.
+Para vértice 43 existe o vizinho 33.
+Para vértice 43 existe o vizinho 37.
+Para vértice 43 existe o vizinho 38.
+Para vértice 43 existe o vizinho 46.
+Lambda atual do vértice 46: 4
+Vértice 46 foi descoberto.A fila de prioridade Q é: deque(['61', '15', '52', '60', '2', '24', '29', '58', '4', '11', '55', '12', '49', '46']).
+
+Para vértice 43 existe o vizinho 53.
+Lambda atual do vértice 53: 4
+Vértice 53 foi descoberto.A fila de prioridade Q é: deque(['61', '15', '52', '60', '2', '24', '29', '58', '4', '11', '55', '12', '49', '46', '53']).
+
+Vértice 43 foi analisado.
+A fila de prioridade Q é: deque(['15', '52', '60', '2', '24', '29', '58', '4', '11', '55', '12', '49', '46', '53']).
+
+Para vértice 61 existe o vizinho 2.
+Para vértice 61 existe o vizinho 37.
+Para vértice 61 existe o vizinho 53.
+Vértice 61 foi analisado.
+A fila de prioridade Q é: deque(['52', '60', '2', '24', '29', '58', '4', '11', '55', '12', '49', '46', '53']).
+
+Para vértice 15 existe o vizinho 0.
+Para vértice 15 existe o vizinho 18.
+Para vértice 15 existe o vizinho 24.
+Para vértice 15 existe o vizinho 40.
+Para vértice 15 existe o vizinho 45.
+Para vértice 15 existe o vizinho 55.
+Para vértice 15 existe o vizinho 59.
+Vértice 15 foi analisado.
+A fila de prioridade Q é: deque(['60', '2', '24', '29', '58', '4', '11', '55', '12', '49', '46', '53']).
+
+Para vértice 52 existe o vizinho 14.
+Para vértice 52 existe o vizinho 29.
+Para vértice 52 existe o vizinho 38.
+Para vértice 52 existe o vizinho 40.
+Vértice 52 foi analisado.
+A fila de prioridade Q é: deque(['2', '24', '29', '58', '4', '11', '55', '12', '49', '46', '53']).
+
+Para vértice 60 existe o vizinho 32.
+Vértice 60 foi analisado.
+A fila de prioridade Q é: deque(['24', '29', '58', '4', '11', '55', '12', '49', '46', '53']).
+
+Para vértice 2 existe o vizinho 10.
+Para vértice 2 existe o vizinho 42.
+Para vértice 2 existe o vizinho 44.
+Para vértice 2 existe o vizinho 61.
+Vértice 2 foi analisado.
+A fila de prioridade Q é: deque(['29', '58', '4', '11', '55', '12', '49', '46', '53']).
+
+Para vértice 24 existe o vizinho 14.
+Para vértice 24 existe o vizinho 15.
+Para vértice 24 existe o vizinho 18.
+Para vértice 24 existe o vizinho 29.
+Para vértice 24 existe o vizinho 45.
+Para vértice 24 existe o vizinho 51.
+Vértice 24 foi analisado.
+A fila de prioridade Q é: deque(['58', '4', '11', '55', '12', '49', '46', '53']).
+
+Para vértice 29 existe o vizinho 10.
+Para vértice 29 existe o vizinho 18.
+Para vértice 29 existe o vizinho 21.
+Para vértice 29 existe o vizinho 24.
+Para vértice 29 existe o vizinho 35.
+Lambda atual do vértice 35: 5
+Vértice 35 foi descoberto.A fila de prioridade Q é: deque(['58', '4', '11', '55', '12', '49', '46', '53', '35']).
+
+Para vértice 29 existe o vizinho 43.
+Para vértice 29 existe o vizinho 45.
+Para vértice 29 existe o vizinho 51.
+Para vértice 29 existe o vizinho 52.
+Vértice 29 foi analisado.
+A fila de prioridade Q é: deque(['4', '11', '55', '12', '49', '46', '53', '35']).
+
+Para vértice 58 existe o vizinho 38.
+Vértice 58 foi analisado.
+A fila de prioridade Q é: deque(['11', '55', '12', '49', '46', '53', '35']).
+
+Para vértice 4 existe o vizinho 51.
+Vértice 4 foi analisado.
+A fila de prioridade Q é: deque(['55', '12', '49', '46', '53', '35']).
+
+Para vértice 11 existe o vizinho 51.
+Vértice 11 foi analisado.
+A fila de prioridade Q é: deque(['12', '49', '46', '53', '35']).
+
+Para vértice 55 existe o vizinho 15.
+Para vértice 55 existe o vizinho 51.
+Vértice 55 foi analisado.
+A fila de prioridade Q é: deque(['49', '46', '53', '35']).
+
+Para vértice 12 existe o vizinho 33.
+Vértice 12 foi analisado.
+A fila de prioridade Q é: deque(['46', '53', '35']).
+
+Para vértice 49 existe o vizinho 34.
+Para vértice 49 existe o vizinho 46.
+Vértice 49 foi analisado.
+A fila de prioridade Q é: deque(['53', '35']).
+
+Para vértice 46 existe o vizinho 43.
+Para vértice 46 existe o vizinho 49.
+Vértice 46 foi analisado.
+A fila de prioridade Q é: deque(['35']).
+
+Para vértice 53 existe o vizinho 43.
+Para vértice 53 existe o vizinho 61.
+Vértice 53 foi analisado.
+A fila de prioridade Q é: deque([]).
+
+Para vértice 35 existe o vizinho 29.
+Vértice 35 foi analisado.
+Vertice 0 tem lambda 3.
+Vertice 1 tem lambda 0.
+Vertice 2 tem lambda 4.
+Vertice 3 tem lambda 3.
+Vertice 4 tem lambda 4.
+Vertice 5 tem lambda 3.
+Vertice 6 tem lambda 2.
+Vertice 7 tem lambda 2.
+Vertice 8 tem lambda 2.
+Vertice 9 tem lambda 2.
+Vertice 10 tem lambda 3.
+Vertice 11 tem lambda 4.
+Vertice 12 tem lambda 4.
+Vertice 13 tem lambda 2.
+Vertice 14 tem lambda 3.
+Vertice 15 tem lambda 3.
+Vertice 16 tem lambda 3.
+Vertice 17 tem lambda 1.
+Vertice 18 tem lambda 3.
+Vertice 19 tem lambda 1.
+Vertice 20 tem lambda 2.
+Vertice 21 tem lambda 3.
+Vertice 22 tem lambda 2.
+Vertice 23 tem lambda 2.
+Vertice 24 tem lambda 4.
+Vertice 25 tem lambda 2.
+Vertice 26 tem lambda 1.
+Vertice 27 tem lambda 1.
+Vertice 28 tem lambda 1.
+Vertice 29 tem lambda 4.
+Vertice 30 tem lambda 2.
+Vertice 31 tem lambda 2.
+Vertice 32 tem lambda 3.
+Vertice 33 tem lambda 3.
+Vertice 34 tem lambda 3.
+Vertice 35 tem lambda 5.
+Vertice 36 tem lambda 1.
+Vertice 37 tem lambda 2.
+Vertice 38 tem lambda 3.
+Vertice 39 tem lambda 2.
+Vertice 40 tem lambda 2.
+Vertice 41 tem lambda 1.
+Vertice 42 tem lambda 3.
+Vertice 43 tem lambda 3.
+Vertice 44 tem lambda 3.
+Vertice 45 tem lambda 3.
+Vertice 46 tem lambda 4.
+Vertice 47 tem lambda 2.
+Vertice 48 tem lambda 3.
+Vertice 49 tem lambda 4.
+Vertice 50 tem lambda 3.
+Vertice 51 tem lambda 3.
+Vertice 52 tem lambda 3.
+Vertice 53 tem lambda 4.
+Vertice 54 tem lambda 1.
+Vertice 55 tem lambda 4.
+Vertice 56 tem lambda 3.
+Vertice 57 tem lambda 2.
+Vertice 58 tem lambda 4.
+Vertice 59 tem lambda 2.
+Vertice 60 tem lambda 4.
+Vertice 61 tem lambda 3.
