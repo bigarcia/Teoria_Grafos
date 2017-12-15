@@ -4,10 +4,17 @@ Bianca Garcia Martins RA:606723
 Gabriel Tanasovici Nardy RA:726521
 Samara M. M. S. Almeida RA:592790
 
+Objetivo:
+
 O trabalho proposto nesta disciplina teve como objetivo aprender Teoria dos Grafos na prática, utilizando a linguagem Python.
+
 Serão apresentados os problemas, suas soluções, e pequenas introduções importantes para a sua execução. Para mais detalhes sobre teorias acesse a apostila do professor:
 https://github.com/bigarcia/trab-grafos/blob/master/Notas_de_Aula_TG.pdf
 
+Introdução:
+
+Um grafo é composto por dois conjuntos não vazios, um de vértices (V) e outro de arestas (E). Uma aresta esta associada a dois vértices (extremidades da aresta), seguindo a relação binária E Vx V.
+Um grafo não direcionado é aquele que as arestas (a,b) são iguais as arestas (b,a), onde a e b são vértices. Em contrapartida, em um gráfico direcionado  a seguinte relação é válida <a,b><b,a>.
 
 
 PROJETO 1: SNAKES AND LADDERS
@@ -18,6 +25,7 @@ O problema é baseado no jogo Snakes and Ladders.
 Snakes and Ladders é um famoso jogo de tabuleiro em que a cada rodada um jogador joga uma moeda não viciada e avança 1 casa se obtiver cara ou avança 2 casas se obtiver coroa. Se o jogador para no pé da escada, então ele imediatamente sobe para o topo da escada. Se o jogador cai na boca de um cobra então ele imediatamente escorrega para o rabo. O jogador sempre inicia no quadrado de número 1. O jogo termina quando ele atinge o quadrado de número 36.
 
 ![Imagens](snakeladders)
+
 O objetivo é :
 
 a)
@@ -33,27 +41,24 @@ Especificara matriz P_ (P_barra) referente ao modelo Pagerank considerando alpha
 Para k = 100, aplicar o Power method e comparar o resultado com o obtido no item b). 
 Determinar se as distribuições estacionárias obtidas em b) e c) são iguais ou diferentes.
 
-Solução:
+Introdução
 
-a)
 Antes de resolver o exercício é interessante relembrar o  de Cadeia de Markov:
 
 A cadeia de markov é um processo estocástico caracterizado por seu estado futuro depender apenas do seu estado atual, sendo que os estados passados não influenciam no estado futuro. 
 
-Quando o código é compilado, é gerado a cadeia de Markov resultante no arquivo Markov.png, presente na pasta do projeto, como pode ser visto abaixo
-![Imagens](Markov.png)
-
-
-
-
-
-b) 
-
-
 
 Resolução:
-A imagem que representa a cadeia de Markov é gerada na pasta do projeto com o nome Markov.pgn, como pode ser observado abaixo
+
+A imagem que representa a cadeia de Markov é gerada na pasta do projeto com o nome Markov.pgn, como pode ser observado abaixo. Caso haja interesse em verificar cada vértice e suas arestas existentes no grafo, basta acessar vestices_arestas.txt na pasta do projeto.
+
 ![Imagens](Markov)
+
+A matriz de probabilidades é gerada no arquivo matrix.txt presente na pasta do projeto.
+
+
+PROJETO 2: ÁRVORE GERADORA MÍNIMA
+A partir de um dataset específico (grafo ponderado armazenado em arquivo .gml, .graphml, .txt, .net, etc) implementar o algoritmo de Prim para extrair uma Minimum Spanning Tree (MST) de G.
 
 
 PROJETO 3: BUSCA EM LARGURA E PROFUNDIDADE
@@ -89,20 +94,36 @@ Todos os passos de execução do BFS são apresentado no BFS_Karate.txt, que se 
 Após a implementação do DFS no grafo original, a seguinte imagem do grafo é gerado na pasta do projeto, com nome DFS_Karate_After.png
 ![Imagens]DFS_Karate_After)
 
+PROJETO 4: ÁRVORES DE CAMINHOS MÍNIMOS E AGRUPAMENTO DE DADOS
+A partir de um dataset específico (grafo ponderado armazenado em arquivo .gml, .graphml, .txt, .net, etc) e implementar o algoritmo de Dijkstra para extrair uma árvore de caminhos mínimos de G.
+
+Metodologia
+
+Após a implementação do algoritmo, uma forma de crescer várias subárvores de caminhos mínimos é inicializar várias sources, ou seja, atribuir custo inicial zero a um número K de vértices. O restante do algoritmo permanece intacto. O que irá acontecer é um processo de disputa entre cada uma das raízes para verificar qual delas irá conquistar cada vértice de G. Ao final da execução um vértice estará "pendurado" apenas a uma única subárvore, fazendo com que tenhamos vários grupos de nós, similar ao que acontecia com as MST's. Porém aqui há supervisão no processo de formação dos grupos, uma vez que o usuário pode definir de onde as subárvores irão iniciar o crescimento (esses pontos devem ser escolhidos de forma a definir o centro dos agrupamentos).
+
+QUESTIONAMENTOS
+
+Considerando o grafo em questão, mostre os resultados (plote graficamente) obtidos para:
+a) 2 agrupamentos (K = 2) 
+b) 3 agrupamentos (K = 3)
+
+
 
 PROJETO 5: OPÇÃO A: O PROBLEMA DO CAIXEIRO VIAJANTE
+
 Desenvolver um programa que deve ler um grafo Hamiltoniano ponderado a partir de um arquivo qualquer e através de um algoritmo visto em sala (2-otimal ou Twice-Around) obter 10 soluções diferentes para o problema do caixeiro-viajante.
 
-METODOLOGIA
+1.METODOLOGIA
 
 Para obter soluções distintas para o problema há algumas heurísticas comumente adotadas na prática: utilizar diferentes inicializações, ou seja, soluções iniciais. Elas podem ser geradas simplesmente aleatoriamente (selecionando vértices quaisquer) ou utilizando alguma heurística, como por exemplo a escolha do vizinho mais próximo por exemplo. Dessa forma, escolhe-se aleatoriamente apenas o primeiro vértice do ciclo (v0) e depois sempre é escolhido como próximo elemento da sequência o vizinho mais próximo do vértice atual, até que o ciclo Hamiltoniano seja formado (não sobre mais vértices). 
 
-QUESTIONAMENTOS
+2.QUESTIONAMENTOS
 
 Liste as 3 melhores soluções e as 3 piores obtidas. Qual a diferença de custo entre a melhor e a pior? Discuta como a diferença pode ser significativa.
 
 Introdução:
 
+MST é uma Árvore Geradora Mínima (Minimum Spanning Trees). Uma árvore geradora representa uma forma resumida de representar um grafo, pois há um e apenas um caminho entre qualquer par de vértices. A árvore geradora mínima é aquela que possui menor peso.
 
 Solução:
 
