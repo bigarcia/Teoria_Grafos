@@ -1,4 +1,3 @@
-# trab-grafos
 Teoria dos Grafos - Professor Alexandre Levada - Universidade Federal de São Carlos - UFSCar
 Alunos:
 Bianca Garcia Martins RA:606723
@@ -18,6 +17,7 @@ Problema:
 O problema é baseado no jogo Snakes and Ladders.
 Snakes and Ladders é um famoso jogo de tabuleiro em que a cada rodada um jogador joga uma moeda não viciada e avança 1 casa se obtiver cara ou avança 2 casas se obtiver coroa. Se o jogador para no pé da escada, então ele imediatamente sobe para o topo da escada. Se o jogador cai na boca de um cobra então ele imediatamente escorrega para o rabo. O jogador sempre inicia no quadrado de número 1. O jogo termina quando ele atinge o quadrado de número 36.
 
+![Imagens](snakeladders)
 O objetivo é :
 
 a)
@@ -41,7 +41,7 @@ Antes de resolver o exercício é interessante relembrar o  de Cadeia de Markov:
 A cadeia de markov é um processo estocástico caracterizado por seu estado futuro depender apenas do seu estado atual, sendo que os estados passados não influenciam no estado futuro. 
 
 Quando o código é compilado, é gerado a cadeia de Markov resultante no arquivo Markov.png, presente na pasta do projeto, como pode ser visto abaixo
-![Imagens](LINK)
+![Imagens](Markov.png)
 
 
 
@@ -91,4 +91,16 @@ Todos os passos de execução do BFS são apresentado no BFS_Karate.txt, que se 
 
 Após a implementação do DFS no grafo original, a seguinte imagem do grafo é gerado na pasta do projeto, com nome DFS_Karate_After.png
 ![Imagens]DFS_Karate_After)
+
+
+PROJETO 5: OPÇÃO A: O PROBLEMA DO CAIXEIRO VIAJANTE
+Desenvolver um programa que deve ler um grafo Hamiltoniano ponderado a partir de um arquivo qualquer e através de um algoritmo visto em sala (2-otimal ou Twice-Around) obter 10 soluções diferentes para o problema do caixeiro-viajante.
+
+METODOLOGIA
+
+Para obter soluções distintas para o problema há algumas heurísticas comumente adotadas na prática: utilizar diferentes inicializações, ou seja, soluções iniciais. Elas podem ser geradas simplesmente aleatoriamente (selecionando vértices quaisquer) ou utilizando alguma heurística, como por exemplo a escolha do vizinho mais próximo por exemplo. Dessa forma, escolhe-se aleatoriamente apenas o primeiro vértice do ciclo (v0) e depois sempre é escolhido como próximo elemento da sequência o vizinho mais próximo do vértice atual, até que o ciclo Hamiltoniano seja formado (não sobre mais vértices). 
+
+QUESTIONAMENTOS
+
+Liste as 3 melhores soluções e as 3 piores obtidas. Qual a diferença de custo entre a melhor e a pior? Discuta como a diferença pode ser significativa.
 
