@@ -72,13 +72,13 @@ Floresta1 = Dijkstra(G, r1, r2, None)
 Floresta2 = Dijkstra(G, raiz1, raiz2, raiz3) 
 
 #Plota o grafo inicial
-plot(G,"Grafo_inicial")
+plot(G,"Grafo inicial","Grafo_inicial")
 
 #Plota a Floresta 1
-plot(Floresta1,"Floresta1")
+plot(Floresta1,"Floresta 1","Figura1")
 
 #Plota a Floresta 2
-plot(Floresta2,"Floresta2")
+plot(Floresta2,"Floresta 2","Figura2")
 
         
     

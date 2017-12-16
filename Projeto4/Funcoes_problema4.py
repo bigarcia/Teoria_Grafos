@@ -22,7 +22,7 @@ def cria_labels(G,arquivo):
         G.nodes[v]['label'] = Cidades[v]
     return nx.get_node_attributes(G,'label')
 
-def plot(nome,titulo):
+def plot(nome,titulo,nome_arquivo):
     plt.figure(1, figsize=(18, 12))             
     pos=nx.spring_layout(nome)      
     plt.axis('off')
@@ -30,7 +30,7 @@ def plot(nome,titulo):
     nx.draw_networkx_edges(nome,pos,width=0.4)
     nx.draw_networkx_nodes(nome,pos,node_size=500)
     plt.title(titulo, size=20)
-    arquivo = titulo + ".png"
+    arquivo = nome_arquivo + ".png"
     plt.savefig(arquivo)
     plt.show()
 
