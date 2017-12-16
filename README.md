@@ -144,13 +144,13 @@ b) 3 agrupamentos (K = 3)
 Solução:
 Primeiramente imprimiu o gráfico inicial, como pode se ver abaixo:
 
-![grafo](Imagens/Grafo inicial.png)
+![grafo](Imagens/Grafo_inicial.png)
 
 Depois foram gerado os seguinte grafos:
 
-![Minimo](Imagens/Floresta 1.png)
+![Minimo](Imagens/Floresta1.png)
 
-![Minimo](Imagens/Floresta 2.png)
+![Minimo2](Imagens/Floresta2.png)
 
 PROJETO 5: OPÇÃO A: O PROBLEMA DO CAIXEIRO VIAJANTE
 
