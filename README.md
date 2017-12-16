@@ -173,23 +173,23 @@ Escolheu- se o algoritmo de Prim para se obter a MST e Twice-Around como algorit
 
 Obteve-se assim 10 soluções diferentes, mostradas abaixo.
 
-![caixeiro](Caixeiro_0.png)
+![caixeiro](Imagens/Caixeiro_0.png)
 
-![caixeiro1](Caixeiro_1.png)
+![caixeiro1](Imagens/Caixeiro_1.png)
 
-![caixeiro2](Caixeiro_2.png)
+![caixeiro2](Imagens/Caixeiro_2.png)
 
-![caixeiro3](Caixeiro_3.png)
+![caixeiro3](Imagens/Caixeiro_3.png)
 
-![caixeiro4](Caixeiro_4.png)
+![caixeiro4](Imagens/Caixeiro_4.png)
 
-![caixeiro5](Caixeiro_5.png)
+![caixeiro5](Imagens/Caixeiro_5.png)
 
-![caixeiro6](Caixeiro_6.png)
+![caixeiro6](Imagens/Caixeiro_6.png)
 
-![caixeiro7](Caixeiro_7.png)
+![caixeiro7](Imagens/Caixeiro_7.png)
 
-![caixeiro8](Caixeiro_8.png)
+![caixeiro8](Imagens/Caixeiro_8.png)
 
-![caixeiro9](Caixeiro_9.png)
+![caixeiro9](Imagens/Caixeiro_9.png)
 
