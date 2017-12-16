@@ -105,7 +105,7 @@ T.add_edges_from([ (u, v) for u, v in P.items() ])
 #Antes do BFS
 pos = nx.random_layout(G)
 name = { v: (v) for v, data in G.nodes(data=True) }
-print("\nGrafo antes da aplicação do BFS\n")
+print("\nGrafo original\n")
 print("Para visualizar a imagem de forma ampliada, abra BFS_Dolphins_Before.png na pasta do projeto\n")
 #imprimindo Grafo
 nx.draw_networkx_labels(G,pos,labels=name)
