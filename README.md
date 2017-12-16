@@ -148,9 +148,9 @@ Primeiramente imprimiu o gráfico inicial, como pode se ver abaixo:
 
 Depois foram gerado os seguinte grafos:
 
-![Minimo](Imagens/Floresta1.png)
+![Minimo](Imagens/Floresta 1.png)
 
-![Minimo](Imagens/Floresta2.png)
+![Minimo](Imagens/Floresta 2.png)
 
 PROJETO 5: OPÇÃO A: O PROBLEMA DO CAIXEIRO VIAJANTE
 
