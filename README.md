@@ -103,7 +103,7 @@ O primeiro grafo, nomeado de Karate (como mostrado abaixo), é encontrado na pas
 
 Após a implementação do BFS no grafo original, a seguinte imagem do grafo é gerado na pasta do projeto, com nome BFS_Karate_After.png.
 
-![Karate_After](Imagens/Karate_After.png)
+![Karate_After](Imagens/BFS_Karate_After.png)
 
 Todos os passos de execução do BFS são apresentado no BFS_Karate.txt, que se encontra na página do projeto
 
@@ -175,21 +175,21 @@ Obteve-se assim 10 soluções diferentes, mostradas abaixo.
 
 ![caixeiro](Caixeiro_0.png)
 
-![caixeiro](Caixeiro_1.png)
+![caixeiro1](Caixeiro_1.png)
 
-![caixeiro](Caixeiro_2.png)
+![caixeiro2](Caixeiro_2.png)
 
-![caixeiro](Caixeiro_3.png)
+![caixeiro3](Caixeiro_3.png)
 
-![caixeiro](Caixeiro_4.png)
+![caixeiro4](Caixeiro_4.png)
 
-![caixeiro](Caixeiro_5.png)
+![caixeiro5](Caixeiro_5.png)
 
-![caixeiro](Caixeiro_6.png)
+![caixeiro6](Caixeiro_6.png)
 
-![caixeiro](Caixeiro_7.png)
+![caixeiro7](Caixeiro_7.png)
 
-![caixeiro](Caixeiro_8.png)
+![caixeiro8](Caixeiro_8.png)
 
-![caixeiro](Caixeiro_9.png)
+![caixeiro9](Caixeiro_9.png)
 
