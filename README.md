@@ -1,7 +1,11 @@
 Teoria dos Grafos - Professor Alexandre Levada - Universidade Federal de São Carlos - UFSCar
+
 Alunos:
+
 Bianca Garcia Martins RA:606723
+
 Gabriel Tanasovici Nardy RA:726521
+
 Samara M. M. S. Almeida RA:592790
 
 Objetivo:
@@ -60,7 +64,7 @@ A matriz de probabilidades é gerada no arquivo matrix.txt presente na pasta do 
 PROJETO 2: ÁRVORE GERADORA MÍNIMA
 A partir de um dataset específico (grafo ponderado armazenado em ha30_dist.txt  e ha30_name.txt) implementar o algoritmo de Prim para extrair uma Minimum Spanning Tree (MST) de G.
 
-![Caixeiro](Imagens/ha30)
+![Caixeiro](Imagens/ha30.png)
  
 Introdução:
 MST é uma Árvore Geradora Mínima (Minimum Spanning Trees). Uma árvore geradora representa uma forma resumida de representar um grafo, pois há um e apenas um caminho entre qualquer par de vértices. A árvore geradora mínima é aquela que possui menor peso.
@@ -73,11 +77,11 @@ import networkx as nx
 A = np.loadtxt('matriz.txt')
 G = nx.from_numpy_matrix(A)
 Primeiro se imprimi o grafo original:
-![original](Imagens/Grafo inicial)
+![original](Imagens/Grafo_prim.pgn)
  
 Depois gera-se o MST resultante:
 
-![Prim](Imagens/MST)
+![Prim](Imagens/MST.pgn)
 
 
 PROJETO 3: BUSCA EM LARGURA E PROFUNDIDADE
@@ -95,34 +99,34 @@ Solução:
 
 O primeiro grafo, nomeado de Karate (como mostrado abaixo), é encontrado na pasta do projeto com o nome Karate_Before.pgn e foi construído importando o documento karate.paj, que contém todos os vértices e arestas do grafo.
 
-![Karate_Before](Imagens/Karate_Before)
+![Karate_Before](Imagens/Karate_Before.png)
 
 Após a implementação do BFS no grafo original, a seguinte imagem do grafo é gerado na pasta do projeto, com nome BFS_Karate_After.png.
 
-![Karate_After](Imagens/Karate_After)
+![Karate_After](Imagens/Karate_After.png)
 
 Todos os passos de execução do BFS são apresentado no BFS_Karate.txt, que se encontra na página do projeto
 
 Após a implementação do DFS no grafo original, a seguinte imagem do grafo é gerado na pasta do projeto, com nome DFS_Karate_After.png
 
-![DFS_Karate_After](Imagens/DFS_Karate_After)
+![DFS_Karate_After](Imagens/DFS_Karate_After.png)
 
 O primeiro grafo, nomeado de Dolphins (como mostrado abaixo), é encontrado na pasta do projeto com o nome Dolphins_Before.pgn e foi construído importando o documento karate.paj, que contém todos os vértices e arestas do grafo.
 
-![Dolphins_Before](Imagens/Dolphins_Before)
+![Dolphins_Before](Imagens/Dolphins_Before.png)
 
 Após a implementação do BFS no grafo original, a seguinte imagem do grafo é gerado na pasta do projeto, com nome BFS_Karate_After.png.
 
-![BFS_Karate_After](Imagens/BFS_Karate_After)
+![BFS_Karate_After](Imagens/BFS_Karate_After.png)
 
 Todos os passos de execução do BFS são apresentado no BFS_Karate.txt, que se encontra na página do projeto
 
 Após a implementação do DFS no grafo original, a seguinte imagem do grafo é gerado na pasta do projeto, com nome DFS_Karate_After.png
 
-![DFS_Karate_After](Imagens/DFS_Karate_After)
+![DFS_Karate_After](Imagens/DFS_Karate_After.png)
 
 PROJETO 4: ÁRVORES DE CAMINHOS MÍNIMOS E AGRUPAMENTO DE DADOS
-A partir de um dataset específico (grafo ponderado armazenado em arquivo .gml, .graphml, .txt, .net, etc) e implementar o algoritmo de Dijkstra para extrair uma árvore de caminhos mínimos de G.
+A partir de um dataset específico (grafo ponderado armazenado em wg59_dist.txt, wg59_main.txt, wg59_name.txt) e implementar o algoritmo de Dijkstra para extrair uma árvore de caminhos mínimos de G.
 
 Metodologia
 
@@ -135,7 +139,18 @@ a) 2 agrupamentos (K = 2)
 b) 3 agrupamentos (K = 3)
 
 
-![Minimo](Imagens/wg59)
+![Minimo](Imagens/wg59.png)
+
+Solução:
+Primeiramente imprimiu o gráfico inicial, como pode se ver abaixo:
+
+![grafo](Imagens/Grafo inicial.png)
+
+Depois foram gerado os seguinte grafos:
+
+![Minimo](Imagens/Floresta1.png)
+
+![Minimo](Imagens/Floresta2.png)
 
 PROJETO 5: OPÇÃO A: O PROBLEMA DO CAIXEIRO VIAJANTE
 
@@ -149,12 +164,32 @@ Para obter soluções distintas para o problema há algumas heurísticas comumen
 
 Liste as 3 melhores soluções e as 3 piores obtidas. Qual a diferença de custo entre a melhor e a pior? Discuta como a diferença pode ser significativa.
 
-![Caixeiro](Imagens/ha30)
+![Caixeiro](Imagens/ha30.png)
 
 
 Solução:
 
 Escolheu- se o algoritmo de Prim para se obter a MST e Twice-Around como algoritmo para a resolução do caixeiro viajante.
 
-![caixeiro]()
+Obteve-se assim 10 soluções diferentes, mostradas abaixo.
+
+![caixeiro](Caixeiro_0.png)
+
+![caixeiro](Caixeiro_1.png)
+
+![caixeiro](Caixeiro_2.png)
+
+![caixeiro](Caixeiro_3.png)
+
+![caixeiro](Caixeiro_4.png)
+
+![caixeiro](Caixeiro_5.png)
+
+![caixeiro](Caixeiro_6.png)
+
+![caixeiro](Caixeiro_7.png)
+
+![caixeiro](Caixeiro_8.png)
+
+![caixeiro](Caixeiro_9.png)
 
