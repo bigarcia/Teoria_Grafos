@@ -77,11 +77,11 @@ import networkx as nx
 A = np.loadtxt('matriz.txt')
 G = nx.from_numpy_matrix(A)
 Primeiro se imprimi o grafo original:
-![original](Imagens/Grafo_prim.pgn)
- 
+![original](Imagens/Grafo_prim.png)
+
 Depois gera-se o MST resultante:
 
-![Prim](Imagens/MST.pgn)
+![Prim](Imagens/MST.png)
 
 
 PROJETO 3: BUSCA EM LARGURA E PROFUNDIDADE
