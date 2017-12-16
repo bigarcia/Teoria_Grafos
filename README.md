@@ -1,5 +1,4 @@
 Teoria dos Grafos - Professor Alexandre Levada - Universidade Federal de São Carlos - UFSCar
-
 Alunos:
 Bianca Garcia Martins RA:606723
 Gabriel Tanasovici Nardy RA:726521
@@ -53,15 +52,15 @@ Resolução:
 
 A imagem que representa a cadeia de Markov é gerada na pasta do projeto com o nome Markov.pgn, como pode ser observado abaixo. Caso haja interesse em verificar cada vértice e suas arestas existentes no grafo, basta acessar vestices_arestas.txt na pasta do projeto.
 
-![Markov](https://github.com/bigarcia/Teoria_Grafos/blob/master/Imagens/Markov.png)
+![Markov](Imagens/Markov.png)
 
 A matriz de probabilidades é gerada no arquivo matrix.txt presente na pasta do projeto.
 
 
 PROJETO 2: ÁRVORE GERADORA MÍNIMA
-A partir de um dataset específico (grafo ponderado armazenado em Nomes.txt  e Distancia.txt) implementar o algoritmo de Prim para extrair uma Minimum Spanning Tree (MST) de G.
+A partir de um dataset específico (grafo ponderado armazenado em ha30_dist.txt  e ha30_name.txt) implementar o algoritmo de Prim para extrair uma Minimum Spanning Tree (MST) de G.
 
-![Caixeiro](ha30)
+![Caixeiro](Imagens/ha30)
  
 Introdução:
 MST é uma Árvore Geradora Mínima (Minimum Spanning Trees). Uma árvore geradora representa uma forma resumida de representar um grafo, pois há um e apenas um caminho entre qualquer par de vértices. A árvore geradora mínima é aquela que possui menor peso.
@@ -73,7 +72,12 @@ import numpy as np
 import networkx as nx
 A = np.loadtxt('matriz.txt')
 G = nx.from_numpy_matrix(A)
+Primeiro se imprimi o grafo original:
+![original](Imagens/Grafo inicial)
+ 
+Depois gera-se o MST resultante:
 
+![Prim](Imagens/MST)
 
 
 PROJETO 3: BUSCA EM LARGURA E PROFUNDIDADE
@@ -91,31 +95,31 @@ Solução:
 
 O primeiro grafo, nomeado de Karate (como mostrado abaixo), é encontrado na pasta do projeto com o nome Karate_Before.pgn e foi construído importando o documento karate.paj, que contém todos os vértices e arestas do grafo.
 
-![Karate_Before]()
+![Karate_Before](Imagens/Karate_Before)
 
 Após a implementação do BFS no grafo original, a seguinte imagem do grafo é gerado na pasta do projeto, com nome BFS_Karate_After.png.
 
-![Imagens](Karate_After)
+![Karate_After](Imagens/Karate_After)
 
 Todos os passos de execução do BFS são apresentado no BFS_Karate.txt, que se encontra na página do projeto
 
 Após a implementação do DFS no grafo original, a seguinte imagem do grafo é gerado na pasta do projeto, com nome DFS_Karate_After.png
 
-![Imagens](DFS_Karate_After)
+![DFS_Karate_After](Imagens/DFS_Karate_After)
 
 O primeiro grafo, nomeado de Dolphins (como mostrado abaixo), é encontrado na pasta do projeto com o nome Dolphins_Before.pgn e foi construído importando o documento karate.paj, que contém todos os vértices e arestas do grafo.
 
-![Imagens](Dolphins_Before)
+![Dolphins_Before](Imagens/Dolphins_Before)
 
 Após a implementação do BFS no grafo original, a seguinte imagem do grafo é gerado na pasta do projeto, com nome BFS_Karate_After.png.
 
-![Imagens]BFS_Karate_After)
+![BFS_Karate_After](Imagens/BFS_Karate_After)
 
 Todos os passos de execução do BFS são apresentado no BFS_Karate.txt, que se encontra na página do projeto
 
 Após a implementação do DFS no grafo original, a seguinte imagem do grafo é gerado na pasta do projeto, com nome DFS_Karate_After.png
 
-![Imagens]DFS_Karate_After)
+![DFS_Karate_After](Imagens/DFS_Karate_After)
 
 PROJETO 4: ÁRVORES DE CAMINHOS MÍNIMOS E AGRUPAMENTO DE DADOS
 A partir de um dataset específico (grafo ponderado armazenado em arquivo .gml, .graphml, .txt, .net, etc) e implementar o algoritmo de Dijkstra para extrair uma árvore de caminhos mínimos de G.
@@ -131,7 +135,7 @@ a) 2 agrupamentos (K = 2)
 b) 3 agrupamentos (K = 3)
 
 
-![Minimo](wg59)
+![Minimo](Imagens/wg59)
 
 PROJETO 5: OPÇÃO A: O PROBLEMA DO CAIXEIRO VIAJANTE
 
@@ -145,11 +149,12 @@ Para obter soluções distintas para o problema há algumas heurísticas comumen
 
 Liste as 3 melhores soluções e as 3 piores obtidas. Qual a diferença de custo entre a melhor e a pior? Discuta como a diferença pode ser significativa.
 
-![Caixeiro](ha30)
-
-Introdução:
+![Caixeiro](Imagens/ha30)
 
 
 Solução:
 
 Escolheu- se o algoritmo de Prim para se obter a MST e Twice-Around como algoritmo para a resolução do caixeiro viajante.
+
+![caixeiro]()
+
