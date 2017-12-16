@@ -1,4 +1,5 @@
 Teoria dos Grafos - Professor Alexandre Levada - Universidade Federal de São Carlos - UFSCar
+
 Alunos:
 Bianca Garcia Martins RA:606723
 Gabriel Tanasovici Nardy RA:726521
@@ -24,7 +25,7 @@ Problema:
 O problema é baseado no jogo Snakes and Ladders.
 Snakes and Ladders é um famoso jogo de tabuleiro em que a cada rodada um jogador joga uma moeda não viciada e avança 1 casa se obtiver cara ou avança 2 casas se obtiver coroa. Se o jogador para no pé da escada, então ele imediatamente sobe para o topo da escada. Se o jogador cai na boca de um cobra então ele imediatamente escorrega para o rabo. O jogador sempre inicia no quadrado de número 1. O jogo termina quando ele atinge o quadrado de número 36.
 
-![Imagens](snakeladders)
+![Snakeladders](Imagens/snakesladders.jpg)
 
 O objetivo é :
 
@@ -52,13 +53,27 @@ Resolução:
 
 A imagem que representa a cadeia de Markov é gerada na pasta do projeto com o nome Markov.pgn, como pode ser observado abaixo. Caso haja interesse em verificar cada vértice e suas arestas existentes no grafo, basta acessar vestices_arestas.txt na pasta do projeto.
 
-![Imagens](Markov)
+![Markov](https://github.com/bigarcia/Teoria_Grafos/blob/master/Imagens/Markov.png)
 
 A matriz de probabilidades é gerada no arquivo matrix.txt presente na pasta do projeto.
 
 
 PROJETO 2: ÁRVORE GERADORA MÍNIMA
-A partir de um dataset específico (grafo ponderado armazenado em arquivo .gml, .graphml, .txt, .net, etc) implementar o algoritmo de Prim para extrair uma Minimum Spanning Tree (MST) de G.
+A partir de um dataset específico (grafo ponderado armazenado em Nomes.txt  e Distancia.txt) implementar o algoritmo de Prim para extrair uma Minimum Spanning Tree (MST) de G.
+
+![Caixeiro](ha30)
+ 
+Introdução:
+MST é uma Árvore Geradora Mínima (Minimum Spanning Trees). Uma árvore geradora representa uma forma resumida de representar um grafo, pois há um e apenas um caminho entre qualquer par de vértices. A árvore geradora mínima é aquela que possui menor peso.
+
+Resolução:
+
+Para ler e transformar a matriz de adjacências em um grafo utilizou -se as seguintes linhas de código:
+import numpy as np
+import networkx as nx
+A = np.loadtxt('matriz.txt')
+G = nx.from_numpy_matrix(A)
+
 
 
 PROJETO 3: BUSCA EM LARGURA E PROFUNDIDADE
@@ -75,23 +90,31 @@ No DFS  a cada vértice descoberto, explora - se um de seus vizinhos não visita
 Solução:
 
 O primeiro grafo, nomeado de Karate (como mostrado abaixo), é encontrado na pasta do projeto com o nome Karate_Before.pgn e foi construído importando o documento karate.paj, que contém todos os vértices e arestas do grafo.
-![Imagens](Karate_Before)
+
+![Karate_Before]()
 
 Após a implementação do BFS no grafo original, a seguinte imagem do grafo é gerado na pasta do projeto, com nome BFS_Karate_After.png.
+
 ![Imagens](Karate_After)
+
 Todos os passos de execução do BFS são apresentado no BFS_Karate.txt, que se encontra na página do projeto
 
 Após a implementação do DFS no grafo original, a seguinte imagem do grafo é gerado na pasta do projeto, com nome DFS_Karate_After.png
+
 ![Imagens](DFS_Karate_After)
 
 O primeiro grafo, nomeado de Dolphins (como mostrado abaixo), é encontrado na pasta do projeto com o nome Dolphins_Before.pgn e foi construído importando o documento karate.paj, que contém todos os vértices e arestas do grafo.
+
 ![Imagens](Dolphins_Before)
 
 Após a implementação do BFS no grafo original, a seguinte imagem do grafo é gerado na pasta do projeto, com nome BFS_Karate_After.png.
+
 ![Imagens]BFS_Karate_After)
+
 Todos os passos de execução do BFS são apresentado no BFS_Karate.txt, que se encontra na página do projeto
 
 Após a implementação do DFS no grafo original, a seguinte imagem do grafo é gerado na pasta do projeto, com nome DFS_Karate_After.png
+
 ![Imagens]DFS_Karate_After)
 
 PROJETO 4: ÁRVORES DE CAMINHOS MÍNIMOS E AGRUPAMENTO DE DADOS
@@ -108,6 +131,7 @@ a) 2 agrupamentos (K = 2)
 b) 3 agrupamentos (K = 3)
 
 
+![Minimo](wg59)
 
 PROJETO 5: OPÇÃO A: O PROBLEMA DO CAIXEIRO VIAJANTE
 
@@ -121,9 +145,10 @@ Para obter soluções distintas para o problema há algumas heurísticas comumen
 
 Liste as 3 melhores soluções e as 3 piores obtidas. Qual a diferença de custo entre a melhor e a pior? Discuta como a diferença pode ser significativa.
 
+![Caixeiro](ha30)
+
 Introdução:
 
-MST é uma Árvore Geradora Mínima (Minimum Spanning Trees). Uma árvore geradora representa uma forma resumida de representar um grafo, pois há um e apenas um caminho entre qualquer par de vértices. A árvore geradora mínima é aquela que possui menor peso.
 
 Solução:
 
